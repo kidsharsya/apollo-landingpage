@@ -15,8 +15,8 @@ export default function Navbar() {
           <Image src="/logo.svg" alt="Apollo Logo" width={120} height={120} className="mr-3" />
         </div>
 
-        {/* Menu desktop */}
-        <ul className="hidden md:flex space-x-6">
+        {/* Menu desktop (muncul di layar >= lg) */}
+        <ul className="hidden lg:flex space-x-6">
           <li>
             <a href="#home" className="text-gray-700 hover:border-b-2 hover:border-blue-500 hover:text-blue-500 px-3 py-2">
               Home
@@ -45,20 +45,20 @@ export default function Navbar() {
         </ul>
 
         {/* Actions desktop */}
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <button className="text-blue-500 px-4 py-2 border border-blue-500 rounded-md hover:bg-blue-500 hover:text-white">Sign In</button>
           <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Sign Up</button>
         </div>
 
-        {/* Hamburger button mobile */}
-        <button className="md:hidden p-2 text-gray-700" onClick={() => setIsOpen(!isOpen)}>
+        {/* Hamburger button (muncul di < lg) */}
+        <button className="lg:hidden p-2 text-gray-700" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
         </button>
       </div>
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2">
+        <div className="lg:hidden px-4 pb-4 space-y-2">
           <a href="#home" className="block text-gray-700 hover:text-blue-500">
             Home
           </a>
