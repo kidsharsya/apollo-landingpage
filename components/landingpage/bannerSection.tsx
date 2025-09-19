@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function BannerSection() {
   return (
     <section className="bg-blue-50">
-      <div className="max-w-6xl mx-auto h-auto flex flex-col md:flex-row gap-8 items-center px-6 py-6">
+      <div className="max-w-6xl mx-auto h-auto flex flex-col-reverse md:flex-row gap-8 items-center px-6 lg:py-6 md:py-24">
         {/* Left Column */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl sm:text-3xl md:text-4xl font-poppins font-bold text-blue-500 leading-tight">LEARN, BUILD, & SHOWCASE</h1>
