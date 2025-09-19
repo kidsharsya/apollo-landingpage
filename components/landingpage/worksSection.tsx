@@ -5,7 +5,7 @@ export default function WorksSection() {
     <section className="bg-white">
       <div className="max-w-6xl mx-auto h-auto gap-8 items-center px-6 py-24">
         <div className="flex flex-col text-center">
-          <h1 className="text-3xl font-medium">How Apollo Works</h1>
+          <h1 className="text-2xl md:text-3xl font-bold">How Apollo Works</h1>
           <h2 className="text-base mt-2 mb-8">Simple steps to start your journey.</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-7">
