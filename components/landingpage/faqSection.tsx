@@ -42,7 +42,7 @@ export default function FAQSection() {
   const rightColumnItems = faq.slice(Math.ceil(faq.length / 2));
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-24">
+    <section className="max-w-7xl mx-auto px-6 py-24">
       <div className="text-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold">Frequently Asked Questions (FAQ)</h2>
         <p className="mt-4 max-w-3xl mx-auto text-lg">Find answers to the most frequently asked questions about Apollo, from pricing to features, so you can start your journey with confidence</p>

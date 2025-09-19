@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function BannerSection() {
   return (
-    <section className="bg-blue-50">
-      <div className="max-w-6xl mx-auto h-auto flex flex-col-reverse md:flex-row gap-8 items-center px-6 py-12 lg:py-6 md:py-24">
+    <section className="bg-gradient-to-br from-blue-50 to-white">
+      <div className="max-w-7xl mx-auto h-auto flex flex-col-reverse md:flex-row gap-8 items-center px-6 py-12 lg:py-6 md:py-24">
         {/* Left Column */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl sm:text-3xl md:text-4xl font-poppins font-bold text-blue-500 leading-tight">LEARN, BUILD, & SHOWCASE</h1>
@@ -20,7 +20,7 @@ export default function BannerSection() {
 
         {/* Right Column */}
         <div className="flex flex-1 justify-center items-center">
-          <Image src="/hero.svg" alt="Banner Image" width={500} height={500} className="max-w-full h-auto" />
+          <Image src="/hero.svg" alt="Banner Image" width={500} height={500} className="max-w-full h-auto animate-float" />
         </div>
       </div>
     </section>

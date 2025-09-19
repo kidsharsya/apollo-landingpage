@@ -6,7 +6,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline
 export default function Footer() {
   return (
     <section className="bg-[#121827]">
-      <footer className="max-w-6xl mx-auto text-gray-300 py-16 px-6">
+      <footer className="max-w-7xl mx-auto text-gray-300 py-16 px-6">
         <div className="grid md:grid-cols-3 gap-8 md:gap-24 lg:gap-40">
           {/* Brand + Contact */}
           <div>

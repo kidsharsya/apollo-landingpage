@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function WorksSection() {
   return (
     <section className="bg-white">
-      <div className="max-w-6xl mx-auto h-auto gap-8 items-center px-6 py-24">
+      <div className="max-w-7xl mx-auto h-auto gap-8 items-center px-6 py-24">
         <div className="flex flex-col text-center">
           <h1 className="text-2xl md:text-3xl font-bold">How Apollo Works</h1>
           <h2 className="text-base mt-2 mb-8">Simple steps to start your journey.</h2>

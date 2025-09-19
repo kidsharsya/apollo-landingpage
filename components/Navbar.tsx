@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full border-b border-gray-300">
-      <div className="max-w-6xl py-3 flex justify-between items-center mx-auto px-4">
+      <div className="max-w-7xl py-3 flex justify-between items-center mx-auto px-4">
         {/* Logo */}
         <div className="flex items-center">
           <Image src="/logo.svg" alt="Apollo Logo" width={120} height={120} className="mr-3" />

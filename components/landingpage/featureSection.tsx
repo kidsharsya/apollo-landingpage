@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function FeatureSection() {
   return (
     <section className="bg-purple-50">
-      <div className="max-w-6xl mx-auto h-auto items-center px-6 py-24">
+      <div className="max-w-7xl mx-auto h-auto items-center px-6 py-24">
         <div className="flex flex-col text-center">
           <h1 className="text-2xl md:text-3xl font-bold">What You’ll Get With Apollo</h1>
           <h2 className="text-base mt-2 mb-8">A powerful ecosystem designed to help you learn faster, build smarter, and showcase better.</h2>
